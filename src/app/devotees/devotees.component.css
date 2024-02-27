@@ -1,0 +1,17 @@
+/* Custom CSS for Registration Page */
+body{
+    background-color: rgba(10, 66, 39, 0.728)
+}
+.container {
+    max-width: 400px;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
