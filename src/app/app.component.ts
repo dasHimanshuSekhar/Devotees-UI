@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { DevoteesComponent } from './devotees/devotees.component';
+import { Component, OnInit } from '@angular/core';
+import { DevoteesComponent } from './Components/devotees/devotees.component';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -9,7 +9,7 @@ import { RouterOutlet } from '@angular/router';
     styleUrl: './app.component.css',
     imports: [RouterOutlet, DevoteesComponent]
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'devotee';
   /* 
   constructor(){
@@ -20,4 +20,7 @@ export class AppComponent {
     )
   }
   */
+ ngOnInit(): void {
+  //  throw new Error('Method not implemented.');
+ }
 }
